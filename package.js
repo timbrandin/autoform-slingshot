@@ -1,9 +1,9 @@
 Package.describe({
-  name: "timbrandin:autoform-slingshot",
-  summary: "File upload for AutoForm with Slingshot",
-  description: "File upload for AutoForm with Slingshot",
-  version: "1.1.2",
-  git: "http://github.com/timbrandin/autoform-slingshot.git"
+  name: "rizafahmi:autoform-slingshot",
+  summary: "File upload for AutoForm with Slingshot plus progressbar",
+  description: "File upload for AutoForm with Slingshot adding progressbar for better UX",
+  version: "1.1.3",
+  git: "http://github.com/rizafahmi/autoform-slingshot.git"
 });
 
 Package.onUse(function(api) {
@@ -14,7 +14,6 @@ function configure(api) {
   api.versionsFrom('METEOR@1.2');
 
   api.use([
-    'coffeescript',
     'underscore',
     'templating',
     'less',
@@ -35,7 +34,7 @@ function configure(api) {
   api.addFiles([
     'lib/client/autoform-slingshot.html',
     'lib/client/autoform-slingshot.less',
-    'lib/client/autoform-slingshot.coffee'
+    'lib/client/autoform-slingshot.js'
   ], 'client');
 
   api.add_files([

@@ -1,7 +1,7 @@
 Autoform Slingshot
 ==================
 
-Pretty much a clone of [yogiben:autoform-file](https://atmospherejs.com/yogiben/autoform-file) using [edgee:slingshot](https://atmospherejs.com/edgee/slingshot) instead of CFS, based on `ryanswrt:autoform-slingshot`.
+Pretty much a clone of [timbrandin:autoform-slingshot](https://github.com/timbrandin/autoform-slingshot), [yogiben:autoform-file](https://atmospherejs.com/yogiben/autoform-file) using [edgee:slingshot](https://atmospherejs.com/edgee/slingshot) instead of CFS, based on `ryanswrt:autoform-slingshot`. Adding notification/session if the upload on progress and add progressbar
 
 > NOTICE! There is no tests, so use at your discretion!
 > We are happy for any PR containing tests, and helping this package get to 1.0.
