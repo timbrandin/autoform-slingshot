@@ -72,8 +72,8 @@ AutoForm.addInputType 'slingshotFileUpload',
     images
 
   valueOut: ->
-    fieldName = $(@context).data('schema-key')
-    templateInstanceId = $(@context).data('id')
+    fieldName = this.data('schema-key')
+    templateInstanceId = this.data('id')
     images = SlingshotAutoformFileCache.find({
       template: templateInstanceId
       field: fieldName

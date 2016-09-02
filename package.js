@@ -2,7 +2,7 @@ Package.describe({
   name: "timbrandin:autoform-slingshot",
   summary: "File upload for AutoForm with Slingshot",
   description: "File upload for AutoForm with Slingshot",
-  version: "1.1.2",
+  version: "1.1.3",
   git: "http://github.com/timbrandin/autoform-slingshot.git"
 });
 
@@ -19,9 +19,9 @@ function configure(api) {
     'templating',
     'less',
     'jquery',
-    'aldeed:autoform@5.3.0',
-    'edgee:slingshot@0.6.2',
-    "tap:i18n@1.5.1"
+    'aldeed:autoform',
+    'edgee:slingshot',
+    "tap:i18n"
   ], ['client', 'server']);
 
   api.imply([
