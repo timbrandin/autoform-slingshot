@@ -18,6 +18,9 @@
 <template name="afSlingshot_bootstrap3">
   <div class="form-group file-upload" data-schema-key="{{schemaKey}}" data-id="{{templateInstanceId}}">
     {{#if fileUpload}}
+
+    {{> progressBar }}
+
     {{#with fileUpload}}
     {{> Template.dynamic template=template data=data}}
     {{/with}}
